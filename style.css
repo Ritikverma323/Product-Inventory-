@@ -1,0 +1,58 @@
+#products {
+    width: 100%;
+    background-color: #f1f1c1;
+  }
+
+  #products tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #products tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  #products th {
+    color: white;
+    background-color: black;
+  }
+
+  #products td{
+      text-align: center;
+      height:50px;
+  }
+  #products td button{
+    background:#E3E3E3;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    margin:10px;
+    padding:10px;
+}
+
+
+.error-red{
+    background:cornflowerblue  !important;
+    border:1px solid red !important
+}
+
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    
+}
+
+input:focus {
+  border: 1px solid #555;
+  outline: none;
+
+}
+
+button{
+    background-color: #7821eb;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;
+}
